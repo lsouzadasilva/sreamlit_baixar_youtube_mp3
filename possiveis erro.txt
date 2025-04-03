@@ -1,0 +1,33 @@
+🔹 1️⃣ Atualizar o yt-dlp corretamente
+
+O erro mostra que yt-dlp -U não funcionou porque foi instalado via pip. Então, tente atualizar assim:
+
+- sh
+python -m pip install --upgrade yt-dlp
+
+
+* Depois, verifique se a versão foi atualizada corretamente:
+
+- sh
+yt-dlp --version
+
+Se ainda mostrar a versão antiga, desinstale e reinstale:
+
+
+- sh
+python -m pip uninstall yt-dlp
+python -m pip install yt-dlp
+
+
+🔹 2️⃣ Definir manualmente o caminho do certificado
+
+Se o erro persistir, tente definir manualmente o caminho do certificado:
+
+1️⃣ No terminal (cmd ou PowerShell), rode este comando:
+
+- sh
+setx SSL_CERT_FILE "C:\Users\lsouzadasilva\AppData\Local\Programs\Python\Python311\Lib\site-packages\certifi\cacert.pem"
+2️⃣ Feche e reabra o terminal para aplicar as mudanças.
+
+
+3️⃣ Teste o yt-dlp novamente:
