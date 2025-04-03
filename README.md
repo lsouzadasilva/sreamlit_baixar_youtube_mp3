@@ -1,6 +1,6 @@
 # YouTube para MP3 🎼
 
-Este é um aplicativo desenvolvido em Python utilizando Streamlit e yt-dlp para converter vídeos do YouTube em arquivos de áudio no formato MP3.
+Este é um aplicativo desenvolvido em Python utilizando Streamlit e yt-dlp para converter vídeos do YouTube em arquivos de áudio no formato MP3. Rodando localmente apenas!
 
 ## 📌 Funcionalidades
 - Interface intuitiva para baixar músicas do YouTube
